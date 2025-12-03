@@ -47,3 +47,21 @@ body{ font-family: Inter, Roboto, Arial, sans-serif; margin:0; background:var(--
 .report-form .resolved { background:#f7f9fc; padding:8px; border-radius:6px; margin-top:6px; }
 .comment { margin-bottom: 10px; }
 .comment .verified { color: #0b7a3a; font-weight:700; }
+.logo-pulse {
+  animation: logoPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes logoPulse {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 12px rgba(37, 99, 235, 0);
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+  }
+}

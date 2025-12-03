@@ -4,12 +4,20 @@ import { Link } from "react-router-dom";
 export default function Navbar({ user, onLogout }){
   return (
     <header className="navbar">
-      <div className="brand">
-        <img src="/logo192.png" alt="SEVA logo" style={{height:40, marginRight:10}}/>
-        <h1>SEVA - Bettiah</h1>
+      <div className="brand" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        
+        {/* Modern Bettiah SEVA Logo */}
+        <img 
+          src="/logo-seva.svg"
+          alt="Bettiah SEVA" 
+          style={{ height: 36 }}
+        />
+
       </div>
-      <nav>
+
+      <nav style={{ display: "flex", alignItems: "center", gap: "10px" }}>
         <Link to="/authorities" className="nav-btn">Authorities</Link>
+
         {user ? (
           <>
             <span className="user-badge">{user.username} ({user.role})</span>

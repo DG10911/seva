@@ -1,0 +1,21 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sevaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <!-- location pin circle -->
+  <circle cx="20" cy="20" r="16" fill="url(#sevaGradient)" />
+  <circle cx="20" cy="16" r="5" fill="#ffffff" />
+  <path d="M20 22 C16 22 14 24.5 14 27 C14 29.5 16 32 20 32 C24 32 26 29.5 26 27 C26 24.5 24 22 20 22 Z" fill="#ffffff" opacity="0.95"/>
+  <!-- text -->
+  <text x="42" y="18" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="15" font-weight="700" fill="#111827">
+    BETTIAH
+  </text>
+  <text x="42" y="32" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="15" font-weight="700" fill="#2563eb">
+    SEVA
+  </text>
+</svg>

@@ -47,5 +47,12 @@
     "password": "ATUL",
     "role": "user",
     "createdAt": "2025-12-02T14:52:37.099Z"
+  },
+  {
+    "id": "52c5c14b-f04a-4512-a5ac-3040ac124f75",
+    "username": "df",
+    "password": "df",
+    "role": "user",
+    "createdAt": "2025-12-03T05:55:03.960Z"
   }
 ]
