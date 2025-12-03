@@ -1,0 +1,51 @@
+[
+  {
+    "id": "630e1d0a-e63c-4696-bc02-7c355202adc3",
+    "username": "papa",
+    "password": "papa",
+    "role": "user",
+    "createdAt": "2025-12-02T14:29:37.521Z"
+  },
+  {
+    "id": "c532679f-2f62-42a6-a2e9-bd1dd2fb6356",
+    "username": "b",
+    "password": "b",
+    "role": "admin",
+    "createdAt": "2025-12-02T14:34:56.612Z"
+  },
+  {
+    "id": "5b89b68e-b848-4ac2-a8bc-b805a807bb7a",
+    "username": "SONI",
+    "password": "SONI",
+    "role": "user",
+    "createdAt": "2025-12-02T14:37:20.531Z"
+  },
+  {
+    "id": "32ff8310-eabe-4f68-a3a7-2c21233ebc81",
+    "username": "RT",
+    "password": "RT",
+    "role": "admin",
+    "createdAt": "2025-12-02T14:39:25.783Z"
+  },
+  {
+    "id": "2abca405-38f7-4d33-a6d7-e349cb7a03a5",
+    "username": "PS",
+    "password": "PS",
+    "role": "authority",
+    "createdAt": "2025-12-02T14:43:43.999Z"
+  },
+  {
+    "id": "d21027da-0ee4-4ea9-aa09-57c50469484e",
+    "username": "sanitation-bettiah",
+    "password": "DG",
+    "role": "authority",
+    "createdAt": "2025-12-02T14:46:38.701Z"
+  },
+  {
+    "id": "4dc58531-5f57-43d3-8c21-c997710989f6",
+    "username": "ATUL",
+    "password": "ATUL",
+    "role": "user",
+    "createdAt": "2025-12-02T14:52:37.099Z"
+  }
+]

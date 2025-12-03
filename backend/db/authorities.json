@@ -1,0 +1,921 @@
+[
+  {
+  "id": "sanitation-bettiah",
+  "name": "Sanitation Department - Bettiah",
+  "department": "Sanitation",
+  "city": "Bettiah",
+  "state": "Bihar",
+  "pincode": "845438",
+  "phone": "06254-278000",
+  "email": "sanitation@bettiah.gov.in",
+  "imageUrl": "",
+  "wards": []
+},
+{
+  "id": "public-works-bettiah",
+  "name": "Public Works Dept - Bettiah",
+  "department": "Public Works",
+  "city": "Bettiah",
+  "state": "Bihar",
+  "pincode": "845438",
+  "phone": "06254-279000",
+  "email": "pwdbettiah@bettiah.gov.in",
+  "imageUrl": "",
+  "wards": []
+},
+{
+  "id": "police-bettiah",
+  "name": "Bettiah Police",
+  "department": "Police",
+  "city": "Bettiah",
+  "state": "Bihar",
+  "pincode": "845438",
+  "phone": "06254-250000",
+  "email": "police@bettiah.gov.in",
+  "imageUrl": "",
+  "wards": []
+},
+  {
+    "id": "mayor-bettiah",
+    "name": "Garima Devi Sikaria",
+    "department": "Mayor / Municipal",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-244079",
+    "email": "mayor@bettiah.gov.in",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/placeholder-profile.png/600px-placeholder-profile.png",
+    "wards": []
+  },
+  {
+    "id": "dm-west-champaran",
+    "name": "District Magistrate, West Champaran",
+    "department": "District Administration",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-232534",
+    "email": "dm-bettiah.bih@nic.in",
+    "imageUrl": "",
+    "wards": []
+  },
+  {
+    "id": "municipal-commissioner",
+    "name": "Mr. Arun Kumar (Municipal Commissioner)",
+    "department": "Nagar Nigam / Municipal Corporation",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-244500",
+    "email": "commissioner@bettiahnagarnigam.gov.in",
+    "imageUrl": "",
+    "wards": []
+  },
+  {
+    "id": "police-ssp-bettiah",
+    "name": "SP (City Police) - Bettiah",
+    "department": "Police / Public Safety",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-250000",
+    "email": "ssp@bettiahpolice.gov.in",
+    "imageUrl": "",
+    "wards": []
+  },
+  {
+    "id": "police-control-room",
+    "name": "Police Control Room",
+    "department": "Police",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "112",
+    "email": "pcr@bettiahpolice.gov.in",
+    "imageUrl": "",
+    "wards": []
+  },
+  {
+    "id": "fire-department",
+    "name": "Bettiah Fire Station",
+    "department": "Fire & Rescue",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-241000",
+    "email": "fire@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": []
+  },
+  {
+    "id": "gmch-bettiah",
+    "name": "GMCH Bettiah (General Medical & Child Health)",
+    "department": "Hospital / Healthcare",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-260101",
+    "email": "gmch@bettiahhealth.gov.in",
+    "imageUrl": "",
+    "wards": []
+  },
+  {
+    "id": "chief-medical-officer",
+    "name": "Chief Medical Officer (CMO)",
+    "department": "Health Department",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-260102",
+    "email": "cmo@bettiahhealth.gov.in",
+    "imageUrl": "",
+    "wards": []
+  },
+  {
+    "id": "health-officer",
+    "name": "Municipal Health Officer",
+    "department": "Public Health / Sanitation",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-260103",
+    "email": "healthofficer@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": []
+  },
+
+  {
+    "id": "ward-1-officer",
+    "name": "Smt. Meera Devi (Ward 1 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270101",
+    "email": "ward1@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-1",
+        "name": "Ward 1 - Chandmari",
+        "phone": "06254-270101",
+        "email": "ward1@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-2-officer",
+    "name": "Shri Ramesh Kumar (Ward 2 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270102",
+    "email": "ward2@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-2",
+        "name": "Ward 2 - Bazar",
+        "phone": "06254-270102",
+        "email": "ward2@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-3-officer",
+    "name": "Smt. Kamla Devi (Ward 3 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270103",
+    "email": "ward3@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-3",
+        "name": "Ward 3 - Station Road",
+        "phone": "06254-270103",
+        "email": "ward3@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-4-officer",
+    "name": "Shri Arun Singh (Ward 4 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270104",
+    "email": "ward4@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-4",
+        "name": "Ward 4 - Ambedkar Nagar",
+        "phone": "06254-270104",
+        "email": "ward4@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-5-officer",
+    "name": "Smt. Rekha Kumari (Ward 5 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270105",
+    "email": "ward5@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-5",
+        "name": "Ward 5 - Ramgarh",
+        "phone": "06254-270105",
+        "email": "ward5@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-6-officer",
+    "name": "Shri Manoj Yadav (Ward 6 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270106",
+    "email": "ward6@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-6",
+        "name": "Ward 6 - Gandhi Chowk",
+        "phone": "06254-270106",
+        "email": "ward6@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-7-officer",
+    "name": "Smt. Basanti Devi (Ward 7 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270107",
+    "email": "ward7@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-7",
+        "name": "Ward 7 - North Colony",
+        "phone": "06254-270107",
+        "email": "ward7@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-8-officer",
+    "name": "Shri Vijay Prakash (Ward 8 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270108",
+    "email": "ward8@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-8",
+        "name": "Ward 8 - South Park",
+        "phone": "06254-270108",
+        "email": "ward8@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-9-officer",
+    "name": "Smt. Anita Singh (Ward 9 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270109",
+    "email": "ward9@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-9",
+        "name": "Ward 9 - East End",
+        "phone": "06254-270109",
+        "email": "ward9@bettiah.gov.in"
+      }
+    ]
+  },
+  {
+    "id": "ward-10-officer",
+    "name": "Shri Rajesh Kumar (Ward 10 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270110",
+    "email": "ward10@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      {
+        "id": "ward-10",
+        "name": "Ward 10 - Market Extension",
+        "phone": "06254-270110",
+        "email": "ward10@bettiah.gov.in"
+      }
+    ]
+},
+{
+    "id": "ward-11-officer",
+    "name": "Shri Deepak Mishra (Ward 11 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270111",
+    "email": "ward11@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-11", "name": "Ward 11 - Kali Bagh", "phone": "06254-270111", "email": "ward11@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-12-officer",
+    "name": "Smt. Ritu Kumari (Ward 12 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270112",
+    "email": "ward12@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-12", "name": "Ward 12 - Shastri Nagar", "phone": "06254-270112", "email": "ward12@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-13-officer",
+    "name": "Shri Ajay Pratap Singh (Ward 13 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270113",
+    "email": "ward13@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-13", "name": "Ward 13 - Bhagwanpur", "phone": "06254-270113", "email": "ward13@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-14-officer",
+    "name": "Smt. Kiran Devi (Ward 14 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270114",
+    "email": "ward14@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-14", "name": "Ward 14 - Subhash Chowk", "phone": "06254-270114", "email": "ward14@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-15-officer",
+    "name": "Shri Abhishek Jha (Ward 15 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270115",
+    "email": "ward15@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-15", "name": "Ward 15 - Machuatoli", "phone": "06254-270115", "email": "ward15@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-16-officer",
+    "name": "Smt. Nisha Kumari (Ward 16 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270116",
+    "email": "ward16@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-16", "name": "Ward 16 - Rajwada Area", "phone": "06254-270116", "email": "ward16@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-17-officer",
+    "name": "Shri Prakash Verma (Ward 17 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270117",
+    "email": "ward17@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-17", "name": "Ward 17 - Hospital Road", "phone": "06254-270117", "email": "ward17@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-18-officer",
+    "name": "Smt. Ranjana Kumari (Ward 18 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270118",
+    "email": "ward18@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-18", "name": "Ward 18 - Saraiya Tola", "phone": "06254-270118", "email": "ward18@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-19-officer",
+    "name": "Shri Gulab Sah (Ward 19 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270119",
+    "email": "ward19@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-19", "name": "Ward 19 - Kundal Road", "phone": "06254-270119", "email": "ward19@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-20-officer",
+    "name": "Smt. Priya Devi (Ward 20 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270120",
+    "email": "ward20@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-20", "name": "Ward 20 - Bakulahar", "phone": "06254-270120", "email": "ward20@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-21-officer",
+    "name": "Shri Mohan Prasad (Ward 21 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270121",
+    "email": "ward21@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-21", "name": "Ward 21 - Ratanmala", "phone": "06254-270121", "email": "ward21@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-22-officer",
+    "name": "Smt. Sunita Devi (Ward 22 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270122",
+    "email": "ward22@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-22", "name": "Ward 22 - Mirzapur", "phone": "06254-270122", "email": "ward22@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-23-officer",
+    "name": "Shri Vinay Thakur (Ward 23 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270123",
+    "email": "ward23@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-23", "name": "Ward 23 - Jail Road", "phone": "06254-270123", "email": "ward23@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-24-officer",
+    "name": "Smt. Kavita Kumari (Ward 24 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270124",
+    "email": "ward24@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-24", "name": "Ward 24 - Patel Nagar", "phone": "06254-270124", "email": "ward24@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-25-officer",
+    "name": "Shri Hariom Pandey (Ward 25 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270125",
+    "email": "ward25@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-25", "name": "Ward 25 - Pani Tanki Area", "phone": "06254-270125", "email": "ward25@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-26-officer",
+    "name": "Smt. Ruby Devi (Ward 26 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270126",
+    "email": "ward26@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-26", "name": "Ward 26 - Naya Tola", "phone": "06254-270126", "email": "ward26@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-27-officer",
+    "name": "Shri Dinesh Kumar (Ward 27 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270127",
+    "email": "ward27@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-27", "name": "Ward 27 - Banuchapar", "phone": "06254-270127", "email": "ward27@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-28-officer",
+    "name": "Smt. Asha Devi (Ward 28 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270128",
+    "email": "ward28@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-28", "name": "Ward 28 - Ramlila Maidan", "phone": "06254-270128", "email": "ward28@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-29-officer",
+    "name": "Shri Alok Singh (Ward 29 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270129",
+    "email": "ward29@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-29", "name": "Ward 29 - Azad Nagar", "phone": "06254-270129", "email": "ward29@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-30-officer",
+    "name": "Smt. Laxmi Kumari (Ward 30 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270130",
+    "email": "ward30@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-30", "name": "Ward 30 - Harmandir Road", "phone": "06254-270130", "email": "ward30@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-31-officer",
+    "name": "Shri Sanjay Rai (Ward 31 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270131",
+    "email": "ward31@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-31", "name": "Ward 31 - College Chowk", "phone": "06254-270131", "email": "ward31@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-32-officer",
+    "name": "Smt. Madhuri Devi (Ward 32 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270132",
+    "email": "ward32@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-32", "name": "Ward 32 - Sugauli Road", "phone": "06254-270132", "email": "ward32@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-33-officer",
+    "name": "Shri Niraj Kumar (Ward 33 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270133",
+    "email": "ward33@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-33", "name": "Ward 33 - Purani Bazar", "phone": "06254-270133", "email": "ward33@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-34-officer",
+    "name": "Smt. Pushpa Devi (Ward 34 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270134",
+    "email": "ward34@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-34", "name": "Ward 34 - Kachi Pakki Road", "phone": "06254-270134", "email": "ward34@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-35-officer",
+    "name": "Shri Prem Nath (Ward 35 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270135",
+    "email": "ward35@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-35", "name": "Ward 35 - Dr Rajendra Nagar", "phone": "06254-270135", "email": "ward35@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-36-officer",
+    "name": "Smt. Sangeeta Kumari (Ward 36 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270136",
+    "email": "ward36@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-36", "name": "Ward 36 - Sant Tola", "phone": "06254-270136", "email": "ward36@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-37-officer",
+    "name": "Shri Devendra Gupta (Ward 37 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270137",
+    "email": "ward37@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-37", "name": "Ward 37 - Nai Basti", "phone": "06254-270137", "email": "ward37@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-38-officer",
+    "name": "Smt. Juhi Kumari (Ward 38 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270138",
+    "email": "ward38@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-38", "name": "Ward 38 - Shankarpur", "phone": "06254-270138", "email": "ward38@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-39-officer",
+    "name": "Shri Mahendra Paswan (Ward 39 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270139",
+    "email": "ward39@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-39", "name": "Ward 39 - Bairiya Road", "phone": "06254-270139", "email": "ward39@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-40-officer",
+    "name": "Smt. Shobha Devi (Ward 40 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270140",
+    "email": "ward40@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-40", "name": "Ward 40 - Ghodasahan Road", "phone": "06254-270140", "email": "ward40@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-41-officer",
+    "name": "Shri Anil Kumar (Ward 41 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270141",
+    "email": "ward41@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-41", "name": "Ward 41 - Kharaiya", "phone": "06254-270141", "email": "ward41@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-42-officer",
+    "name": "Smt. Rachna Devi (Ward 42 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270142",
+    "email": "ward42@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-42", "name": "Ward 42 - Parsa Tola", "phone": "06254-270142", "email": "ward42@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-43-officer",
+    "name": "Shri Ratan Lal (Ward 43 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270143",
+    "email": "ward43@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-43", "name": "Ward 43 - Nautan Road", "phone": "06254-270143", "email": "ward43@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-44-officer",
+    "name": "Smt. Roshni Kumari (Ward 44 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270144",
+    "email": "ward44@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-44", "name": "Ward 44 - Janta Bazaar", "phone": "06254-270144", "email": "ward44@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-45-officer",
+    "name": "Shri Vikas Sharma (Ward 45 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270145",
+    "email": "ward45@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-45", "name": "Ward 45 - Gurdwara Road", "phone": "06254-270145", "email": "ward45@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-46-officer",
+    "name": "Smt. Manju Devi (Ward 46 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270146",
+    "email": "ward46@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-46", "name": "Ward 46 - Mirchaiya Tola", "phone": "06254-270146", "email": "ward46@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-47-officer",
+    "name": "Shri Bharat Singh (Ward 47 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270147",
+    "email": "ward47@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-47", "name": "Ward 47 - Siswania", "phone": "06254-270147", "email": "ward47@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-48-officer",
+    "name": "Smt. Rita Kumari (Ward 48 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270148",
+    "email": "ward48@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-48", "name": "Ward 48 - Sathi Road", "phone": "06254-270148", "email": "ward48@bettiah.gov.in" }
+    ]
+  },
+
+  {
+    "id": "ward-49-officer",
+    "name": "Shri Suresh Yadav (Ward 49 Officer)",
+    "department": "Ward Office",
+    "city": "Bettiah",
+    "state": "Bihar",
+    "pincode": "845438",
+    "phone": "06254-270149",
+    "email": "ward49@bettiah.gov.in",
+    "imageUrl": "",
+    "wards": [
+      { "id": "ward-49", "name": "Ward 49 - Lal Bazar", "phone": "06254-270149", "email": "ward49@bettiah.gov.in" }
+    ]
+}
+    ]
