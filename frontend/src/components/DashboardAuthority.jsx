@@ -8,6 +8,7 @@ import api from "../api/api";
  * Authority dashboard: shows only reports assigned to the logged-in authority
  * - Click marker or Open in popup to view the report
  * - Authority can reply (their replies are flagged as byAuthority: true)
+ * - NEW: Download my reports (CSV)
  */
 export default function DashboardAuthority({ user }) {
   const [reports, setReports] = useState([]);
@@ -62,7 +63,7 @@ export default function DashboardAuthority({ user }) {
     else console.warn("Report for marker not found", markerObj);
   }
 
-  // when authority replies from Admin view (or Reply action) we add comment flagged byAuthority: true
+  // Authority quick reply
   async function replyAsAuthority(id){
     const text = prompt("Write your reply (this will be shown as replied by Authority):");
     if(!text) return;
@@ -76,15 +77,76 @@ export default function DashboardAuthority({ user }) {
     await refreshReports();
   }
 
-  // When ReportView posts comment via onComment, we simply refresh
   async function onCommentHandler(id, comment){
     await refreshReports();
+  }
+
+  // 🔽 NEW: Download only my assigned reports as CSV
+  function downloadMyReportsCSV() {
+    const myReports = myAssignedReports();
+    if (!myReports.length) {
+      alert("No reports assigned to you to download.");
+      return;
+    }
+
+    const header = [
+      "id","title","description","category","area","pincode",
+      "status","assignedTo","deadline","votes","completedVotes",
+      "createdBy","createdAt","lat","lng"
+    ];
+
+    const rows = myReports.map(r => [
+      r.id || "",
+      (r.title || "").replace(/\n/g, " "),
+      (r.desc || "").replace(/\n/g, " "),
+      r.category || "",
+      r.area || "",
+      r.pincode || "",
+      r.status || "",
+      r.assignedTo || "",
+      r.deadline || "",
+      r.votes ?? "",
+      r.completedVotes ?? "",
+      r.createdBy || "",
+      r.createdAt || "",
+      r.lat ?? "",
+      r.lng ?? ""
+    ]);
+
+    const csv = [header, ...rows]
+      .map(row => row
+        .map(value => {
+          const v = String(value ?? "");
+          if (v.includes(",") || v.includes("\"") || v.includes("\n")) {
+            return `"${v.replace(/"/g, '""')}"`;
+          }
+          return v;
+        })
+        .join(","))
+      .join("\n");
+
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    const ts = new Date().toISOString().replace(/[:.]/g, "-");
+    a.href = url;
+    a.download = `seva_reports_${user?.username || "authority"}_${ts}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   }
 
   return (
     <div className="container">
       <h2>Authority Dashboard</h2>
       <p className="muted">Logged in as <b>{user?.username}</b> — showing reports assigned to your authority.</p>
+
+      <div style={{display:"flex", justifyContent:"flex-end", marginTop:8, marginBottom:8}}>
+        <button className="btn-outline" onClick={downloadMyReportsCSV}>
+          Download my reports (CSV)
+        </button>
+      </div>
 
       <div className="card" style={{marginTop:12}}>
         <h3>Map — reports assigned to you</h3>

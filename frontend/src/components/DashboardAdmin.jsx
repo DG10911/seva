@@ -45,7 +45,6 @@ export default function DashboardAdmin({ user }){
 
   // Called when marker or its popup Open button is clicked
   function handleMarkerClick(markerObj){
-    // find the linked report
     const r = reports.find(x => x.id === markerObj.id);
     if(r){
       setViewReport(r);
@@ -94,10 +93,72 @@ export default function DashboardAdmin({ user }){
     refreshReports();
   }
 
+  // 🔽 NEW: Download all reports as CSV
+  function downloadReportsCSV() {
+    if (!reports.length) {
+      alert("No reports to download.");
+      return;
+    }
+
+    const header = [
+      "id","title","description","category","area","pincode",
+      "status","assignedTo","deadline","votes","completedVotes",
+      "createdBy","createdAt","lat","lng"
+    ];
+
+    const rows = reports.map(r => [
+      r.id || "",
+      (r.title || "").replace(/\n/g, " "),
+      (r.desc || "").replace(/\n/g, " "),
+      r.category || "",
+      r.area || "",
+      r.pincode || "",
+      r.status || "",
+      r.assignedTo || "",
+      r.deadline || "",
+      r.votes ?? "",
+      r.completedVotes ?? "",
+      r.createdBy || "",
+      r.createdAt || "",
+      r.lat ?? "",
+      r.lng ?? ""
+    ]);
+
+    const csv = [header, ...rows]
+      .map(row => row
+        .map(value => {
+          const v = String(value ?? "");
+          // escape " and , and newlines
+          if (v.includes(",") || v.includes("\"") || v.includes("\n")) {
+            return `"${v.replace(/"/g, '""')}"`;
+          }
+          return v;
+        })
+        .join(","))
+      .join("\n");
+
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    const ts = new Date().toISOString().replace(/[:.]/g, "-");
+    a.href = url;
+    a.download = `seva_reports_admin_${ts}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
   return (
     <div className="container">
       <h2>Admin Dashboard</h2>
       <p className="muted">Admin: see all reports, assign authorities, set deadlines and reply as verified.</p>
+
+      <div style={{display:"flex", justifyContent:"flex-end", marginTop:8, marginBottom:8}}>
+        <button className="btn-outline" onClick={downloadReportsCSV}>
+          Download all reports (CSV)
+        </button>
+      </div>
 
       <div style={{marginTop:12}} className="card">
         <h3>City Map — all live reports (Bettiah)</h3>
@@ -133,7 +194,6 @@ export default function DashboardAdmin({ user }){
           report={viewReport}
           onClose={()=> { setViewReport(null); refreshReports(); }}
           onComment={async (id, comment) => {
-            // when comment posted inside ReportView, update backend/local and refresh
             if(process.env.REACT_APP_API_BASE){
               try { await api.commentReport(id, comment); refreshReports(); return; } catch(e){ console.warn(e); }
             }
